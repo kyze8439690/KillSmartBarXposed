@@ -24,6 +24,10 @@ public class KillSmartBar implements IXposedHookLoadPackage, IXposedHookZygoteIn
             new PackageToKill("net.suckga.iLauncher2", "net.suckga.iLauncher2.LauncherActivity", true, false),
             new PackageToKill("com.ovidos.android.kitkat.launcher3", "com.ovidos.android.kitkat.launcher3.Launcher", true, false),
             new PackageToKill("com.smartisanos.launcher", "com.smartisanos.launcher.LauncherActivity", true, false),
+            /**
+             *  add launcher info here
+             *  new PackageToKill("launcher package name", "launcher activity name", killSmartbar?, transparent notification bar?)
+             */
         };
         XposedBridge.log("There is " + mPackageToKills.length + " Package to be processed.");
     }
