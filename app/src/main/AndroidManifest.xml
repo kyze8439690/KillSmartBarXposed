@@ -1,0 +1,20 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="me.yugy.android.xposed.mods.killsmartbar">
+
+    <application
+        android:label="@string/app_name"
+        android:icon="@drawable/ic_launcher">
+
+        <meta-data
+            android:name="xposedmodule"
+            android:value="true" />
+        <meta-data
+            android:name="xposeddescription"
+            android:value="A xposed module which can hide smartbar, show transparent notification bar on flyme device, you must noticed that this only works on flyme devices." />
+        <meta-data
+            android:name="xposedminversion"
+            android:value="30" />
+
+    </application>
+
+</manifest>
